@@ -9,7 +9,7 @@ export default function BookDetails() {
     const { id } = useParams();
 
     useEffect(() => {
-        const book = Books.find((data) => data.bookID === id);
+        const book = Books.find((data) => Number(data.bookID) === Number(id));
         setBook(book);
     }, [book, id, Books]);
     return (
