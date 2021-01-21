@@ -49,7 +49,7 @@
   cursor: pointer;
 }
 
-.searchedCandidate{
+.searchedBook{
   height: 40%;
   width: 80%;
   display: flex;
@@ -173,31 +173,51 @@
   overflow: auto;
   display: flex;
   border: 1px solid grey;
-  align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+ }
+ .main a{
+   text-decoration: none;
+   color:  rgb(221, 87, 87);
  }
 
  .Container{
    display:flex;
    justify-content: space-between;
-   height:20%;
-   width:96%;
-   border-top: 1px solid grey;
-   align-items: center;
+   flex-direction: column;
+   height:35%;
+   width:29%;
+   border: 1px solid grey;
    padding: 2%;
  }
 
- .userImage img{
-   height:100px;
-   width: 100px;
-   padding-left: 20%;
+ .bookTitle{
    cursor: pointer;
+   color:  rgb(221, 87, 87);
+   font-weight: 600;
  }
 
- .userDetails{
+ .bookDetails{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 2%;
+   width: 100%;
+ }
+
+ .bookImage{
+   height: 40%;
    width: 40%;
    display: flex;
-   flex-direction: column;
+   margin: auto auto;
+ }
+
+ .BookDetailsContainer{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+
+ .heading{
+   color: cornflowerblue;
  }
 
  /*********** Main styling ends here **************/
@@ -205,23 +225,23 @@
 
  /*********** Profile page styling start here **************/
 
- .profileContainer{
+ .selectedBookContainer{
   display:flex;
   justify-content: center;
   flex-direction: column;
-  margin: auto;
+  margin: auto auto;
   height:86%;
   width:80%;
   align-items: center;
  }
  
- .profileDetails{
-   text-align: center;
+ .selectedBookDetails{
+   margin-top: 2%;
  }
 
- .profilePicture img{
-  height: 300px;
-  width: 300px;
+ .selectedBookPicture img{
+  height: 40%;
+  width: 40%;
  }
 
  .shortreject{
@@ -242,6 +262,12 @@
  font-size: 1.5em;
  font-weight: 600;
  cursor: pointer;
+}
+
+
+.bookImage:{
+  height: 20%;
+  width: 20%;
 }
 
 
