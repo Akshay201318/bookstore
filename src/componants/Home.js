@@ -74,7 +74,7 @@ export default function Home() {
                                     <div><span className="heading">Book ID:</span> {searchedBook.bookID}</div>
                                     <div><span className="heading">INSB:</span> {searchedBook.isbn}</div>
                                     <div><span className="heading">Rating:</span> {searchedBook.average_rating}</div>
-                                    <div><span className="heading">Total Ratings:</span> {book.ratings_countg}</div>
+                                    <div><span className="heading">Total Ratings:</span> {searchedBook.ratings_countg}</div>
                             </div>
                         </div>
                 }
