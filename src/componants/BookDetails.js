@@ -32,6 +32,7 @@ export default function BookDetails() {
                     <div><span className="heading">Book ID:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {book.bookID}</div>
                     <div><span className="heading">INSB:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {book.isbn}</div>
                     <div><span className="heading">Rating:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {book.average_rating}</div>
+                    <div><span className="heading">Total Ratings:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {book.ratings_count}</div>
                 </div>
             </div>
             <div className="footer">

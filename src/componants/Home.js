@@ -59,6 +59,7 @@ export default function Home() {
                                     <div><span className="heading">Book ID:</span> {book.bookID}</div>
                                     <div><span className="heading">INSB:</span> {book.isbn}</div>
                                     <div><span className="heading">Rating:</span> {book.average_rating}</div>
+                                    <div><span className="heading">Total Ratings:</span> {book.ratings_countg}</div>
                                 </div>
                                 <div><img className="bookImage" src={"book.png"} alt="Book"></img></div>
                             </div>
@@ -73,6 +74,7 @@ export default function Home() {
                                     <div><span className="heading">Book ID:</span> {searchedBook.bookID}</div>
                                     <div><span className="heading">INSB:</span> {searchedBook.isbn}</div>
                                     <div><span className="heading">Rating:</span> {searchedBook.average_rating}</div>
+                                    <div><span className="heading">Total Ratings:</span> {book.ratings_countg}</div>
                             </div>
                         </div>
                 }
